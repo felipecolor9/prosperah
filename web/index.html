@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Finanças Pessoais Dashboard</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Finanças Pessoais</h1>
+        </div>
+        <div class="overview">
+            <div class="patrimonio">
+                <h2>Patrimônio Total</h2>
+                <p id="patrimonio-valor">$100,000.00</p>
+            </div>
+            <div class="grafico-porcentagem">
+                <h2>Variação ao longo do tempo</h2>
+                <canvas id="porcentagem-chart"></canvas>
+            </div>
+            <div class="diversificacao">
+                <h2>Diversificação de Investimentos</h2>
+                <canvas id="pizza-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script
